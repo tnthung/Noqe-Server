@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "The backend server of Noqe",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsc && concurrently npm:dev:*",
+    "dev:run": "nodemon ./dist/",
+    "dev:build": "tsc -w",
+
+    "start": "tsc && node ./dist"
+  },
   "keywords": [],
   "author": "TNThung",
   "license": "MIT",
