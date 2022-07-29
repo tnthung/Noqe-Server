@@ -11,7 +11,7 @@ app.get("/test/database", async (_, res) => {
     await pool.query("CREATE TABLE test ();");
     await pool.query("DROP TABLE test;");
 
-    res.status(200).send("Test success!")
+    res.status(200).send("Test success!");
   }
   catch (err) {
     console.error(err);
