@@ -1,0 +1,10 @@
+{
+  "name": "noqe-server",
+  "version": "1.0.0",
+  "description": "The backend server of Noqe",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "TNThung",
+  "license": "MIT"
+}
